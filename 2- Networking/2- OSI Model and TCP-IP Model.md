@@ -134,7 +134,7 @@ Backend API
 
 ---
 
-## Layer 6 — Presentation
+## Layer 6 — Presentation 
 
 The Presentation layer is responsible for how data is represented.
 
