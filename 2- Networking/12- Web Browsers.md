@@ -42,7 +42,8 @@ User
   ▼
 Browser
   │
-  │ HTTP Request
+  │ 
+HTTP Request
   ▼
 Web Server / API
   │
@@ -915,7 +916,7 @@ Browser
    ▼
 Cache
    │
-   ▼
+   ▼ 
 Use Existing Resource
 ```
 
@@ -1288,58 +1289,3 @@ Why does the page make multiple API requests?
 ```
 
 ---
-
-# 🎯 What You Should Learn Next
-
-After understanding the browser at this level, study these topics in more detail:
-
-```text
-1. URL Structure
-2. DNS Resolution
-3. HTTP Request Lifecycle
-4. HTTPS and TLS
-5. Browser Networking
-6. Cookies
-7. Browser Storage
-8. CORS
-9. Browser Cache
-10. Rendering Process
-11. JavaScript Event Loop
-12. Fetch API
-13. WebSocket
-14. Browser Developer Tools
-```
-
-For your **Backend Engineering Foundations**, I recommend the next README to be:
-
-```text
-Browser → HTTP Request Lifecycle
-```
-
-That will connect everything you have studied:
-
-```text
-Browser
-   ↓
-URL
-   ↓
-DNS
-   ↓
-TCP / TLS
-   ↓
-HTTP
-   ↓
-Reverse Proxy
-   ↓
-ASP.NET Core
-   ↓
-Middleware
-   ↓
-Endpoint
-   ↓
-Database
-   ↓
-HTTP Response
-   ↓
-Browser
-```

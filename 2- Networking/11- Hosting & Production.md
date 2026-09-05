@@ -719,7 +719,7 @@ A basic architecture:
 Internet
    │
    ▼
-  API
+API
    │
    ▼
 Database
@@ -734,7 +734,7 @@ Internet
 Nginx
    │
    ▼
-  API
+API
    │
    ▼
 Private Database
@@ -878,7 +878,7 @@ With Docker:
 API Container
       │
       ▼
-    Crash
+Crash
       │
       ▼
 Restart Policy
@@ -1288,8 +1288,7 @@ With CI/CD:
 ```text
 Developer
     │
-    │ 
-  git push
+    │ git push
     ▼
 GitHub
     │
@@ -1406,8 +1405,7 @@ A practical architecture for a .NET application could be:
 ```text
                          USERS
                            │
-                           │ 
-                          HTTPS
+                           │ HTTPS
                            ▼
                         INTERNET
                            │
@@ -1564,6 +1562,49 @@ Application Is Slow
 Monitoring + Logs
 ```
 
+---
+
+# 🗺️ Recommended Learning Order
+
+For a backend developer focusing specifically on **Hosting and Production**, study in this order:
+
+```text
+1. Linux Server Basics
+        ↓
+2. SSH and Server Access
+        ↓
+3. Server Networking and Firewall
+        ↓
+4. Deploy ASP.NET Core
+        ↓
+5. Process Management
+        ↓
+6. Docker
+        ↓
+7. Docker Compose
+        ↓
+8. Nginx Reverse Proxy
+        ↓
+9. Domain and DNS
+        ↓
+10. HTTPS / SSL
+        ↓
+11. Environment Variables and Secrets
+        ↓
+12. Production Database
+        ↓
+13. Persistent Storage and Backups
+        ↓
+14. Logging
+        ↓
+15. Health Checks
+        ↓
+16. Monitoring
+        ↓
+17. CI/CD Deployment
+        ↓
+18. Rollback Strategies
+```
 
 ---
 
@@ -1582,13 +1623,13 @@ Running on localhost
 to:
 
 ```text
-  Real Users
+Real Users
       │
       ▼
 https://api.yourapp.com
       │
       ▼
-     DNS
+DNS
       │
       ▼
 Production Linux Server
