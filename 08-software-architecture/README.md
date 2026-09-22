@@ -19,12 +19,12 @@ Core concepts that form the foundation of software architecture and help you und
 
 Common architectural approaches for structuring applications and organizing their components and dependencies.
 
-* [Layered Architecture](02-architecture-styles/layered-architecture.md)
-* [Clean Architecture](02-architecture-styles/clean-architecture.md)
-* [Hexagonal Architecture](02-architecture-styles/hexagonal-architecture.md)
-* [Onion Architecture](02-architecture-styles/onion-architecture.md)
-* [Vertical Slice Architecture](02-architecture-styles/vertical-slice-architecture.md)
-* [Modular Monolith vs Microservices](02-architecture-styles/modular-monolith-vs-microservices.md)
+* [Layered Architecture](02-architecture-styles/01-layered-architecture.md)
+* [Clean Architecture](02-architecture-styles/02-clean-architecture.md)
+* [Hexagonal Architecture](02-architecture-styles/03-hexagonal-architecture.md)
+* [Onion Architecture](02-architecture-styles/04-onion-architecture.md)
+* [Vertical Slice Architecture](02-architecture-styles 04-vertical-slice-architecture.md)
+* [Modular Monolith vs Microservices](02-architecture-styles/05-modular-monolith-vs-microservices.md)
 
 ---
 
