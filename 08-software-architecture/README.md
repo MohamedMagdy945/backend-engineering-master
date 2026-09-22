@@ -8,10 +8,10 @@ A structured learning path for understanding software architecture, architectura
 
 Core concepts that form the foundation of software architecture and help you understand how responsibilities and dependencies should be organized.
 
-* [What is Architecture](01-fundamentals/what-is-architecture.md)
-* [Separation of Concerns](01-fundamentals/separation-of-concerns.md)
-* [Coupling and Cohesion](01-fundamentals/coupling-and-cohesion.md)
-* [Dependency Direction](01-fundamentals/dependency-direction.md)
+* [What is Architecture](01-fundamentals/01-what-is-architecture.md)
+* [Separation of Concerns](01-fundamentals/02-separation-of-concerns.md)
+* [Coupling and Cohesion](01-fundamentals/03-coupling-and-cohesion.md)
+* [Dependency Direction](01-fundamentals/04-dependency-direction.md)
 
 ---
 
