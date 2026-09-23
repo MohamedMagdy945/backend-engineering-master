@@ -23,8 +23,8 @@ Common architectural approaches for structuring applications and organizing thei
 * [Clean Architecture](02-architecture-styles/02-clean-architecture.md)
 * [Hexagonal Architecture](02-architecture-styles/03-hexagonal-architecture.md)
 * [Onion Architecture](02-architecture-styles/04-onion-architecture.md)
-* [Vertical Slice Architecture](02-architecture-styles 04-vertical-slice-architecture.md)
-* [Modular Monolith vs Microservices](02-architecture-styles/05-modular-monolith-vs-microservices.md)
+* [Vertical Slice Architecture](02-architecture-styles /05-vertical-slice-architecture.md)
+* [Modular Monolith vs Microservices](02-architecture-styles/06-modular-monolith-vs-microservices.md)
 
 ---
 
