@@ -28,7 +28,7 @@ Common architectural approaches for structuring applications and organizing thei
 
 ---
 
-## 03 — Layers
+## 03 — [Layers]
 
 The main responsibilities and boundaries of common application layers used in backend systems.
 
