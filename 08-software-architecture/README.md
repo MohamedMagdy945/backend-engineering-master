@@ -1,136 +1,101 @@
 # Software Architecture
 
-A structured learning path for understanding software architecture, architectural styles, layers, patterns, domain-driven design, cross-cutting concerns, testing, principles, and anti-patterns.
+A focused learning path for understanding software architecture, architectural styles, boundaries, dependencies, architectural decisions, and common trade-offs.
 
 ---
 
 ## 01 — Fundamentals
 
-Core concepts that form the foundation of software architecture and help you understand how responsibilities and dependencies should be organized.
+The core concepts needed to understand and evaluate software architecture.
 
-* [What is Architecture](01-fundamentals/01-what-is-architecture.md)
+* [What is Software Architecture](01-fundamentals/01-what-is-architecture.md)
 * [Separation of Concerns](01-fundamentals/02-separation-of-concerns.md)
 * [Coupling and Cohesion](01-fundamentals/03-coupling-and-cohesion.md)
 * [Dependency Direction](01-fundamentals/04-dependency-direction.md)
+* [Boundaries and Responsibilities](01-fundamentals/05-boundaries-and-responsibilities.md)
 
 ---
 
-## 02 — Architecture Styles
+## 02 — Architectural Styles
 
-Common architectural approaches for structuring applications and organizing their components and dependencies.
+Major architectural styles used to structure software systems.
 
 * [Layered Architecture](02-architecture-styles/01-layered-architecture.md)
 * [Clean Architecture](02-architecture-styles/02-clean-architecture.md)
 * [Hexagonal Architecture](02-architecture-styles/03-hexagonal-architecture.md)
 * [Onion Architecture](02-architecture-styles/04-onion-architecture.md)
-* [Vertical Slice Architecture](02-architecture-styles /05-vertical-slice-architecture.md)
-* [Modular Monolith vs Microservices](02-architecture-styles/06-modular-monolith-vs-microservices.md)
+* [Vertical Slice Architecture](02-architecture-styles/05-vertical-slice-architecture.md)
+* [Modular Monolith](02-architecture-styles/06-modular-monolith.md)
+* [Microservices Architecture](02-architecture-styles/07-microservices.md)
 
 ---
 
-## 03 — [Layers]
+## 03 — Architectural Building Blocks
 
-The main responsibilities and boundaries of common application layers used in backend systems.
+Common structural concepts used when designing application architecture.
 
-* [Domain Layer](03-layers/domain-layer.md)
-* [Application Layer](03-layers/application-layer.md)
-* [Infrastructure Layer](03-layers/infrastructure-layer.md)
-* [Presentation Layer](03-layers/presentation-layer.md)
-
----
-
-## 04 — Patterns
-
-Reusable architectural and design patterns commonly used to solve recurring problems in application design and implementation.
-
-* [Repository Pattern](04-patterns/repository-pattern.md)
-* [Unit of Work](04-patterns/unit-of-work.md)
-* [CQRS](04-patterns/cqrs.md)
-* [Mediator](04-patterns/mediator.md)
-* [Result Pattern](04-patterns/result-pattern.md)
-* [Specification Pattern](04-patterns/specification-pattern.md)
-* [Domain Events](04-patterns/domain-events.md)
-* [Factory Pattern](04-patterns/factory-pattern.md)
-* [Strategy Pattern](04-patterns/strategy-pattern.md)
-* [Decorator Pattern](04-patterns/decorator-pattern.md)
+* [Presentation Layer](03-building-blocks/01-presentation-layer.md)
+* [Application Layer](03-building-blocks/02-application-layer.md)
+* [Domain Layer](03-building-blocks/03-domain-layer.md)
+* [Infrastructure Layer](03-building-blocks/04-infrastructure-layer.md)
+* [Modules and Boundaries](03-building-blocks/05-modules-and-boundaries.md)
+* [Dependency Inversion](03-building-blocks/06-dependency-inversion.md)
 
 ---
 
-## 05 — Domain-Driven Design
+## 04 — Architectural Decisions
 
-Concepts for modeling business domains and representing business rules and relationships within the domain.
+How to choose and evaluate an architecture instead of blindly following a particular style.
 
-* [Entities](05-domain-driven-design/entities.md)
-* [Value Objects](05-domain-driven-design/value-objects.md)
-* [Aggregates](05-domain-driven-design/aggregates.md)
-* [Aggregate Roots](05-domain-driven-design/aggregate-roots.md)
-* [Domain Services](05-domain-driven-design/domain-services.md)
-* [Bounded Contexts](05-domain-driven-design/bounded-contexts.md)
-* [Ubiquitous Language](05-domain-driven-design/ubiquitous-language.md)
+* [Architecture Decision Making](04-architectural-decisions/01-architecture-decision-making.md)
+* [Architecture Trade-offs](04-architectural-decisions/02-architecture-trade-offs.md)
+* [Choosing the Right Architecture](04-architectural-decisions/03-choosing-the-right-architecture.md)
+* [Evolutionary Architecture](04-architectural-decisions/04-evolutionary-architecture.md)
+* [Architecture Decision Records](04-architectural-decisions/05-architecture-decision-records.md)
 
 ---
 
-## 06 — Cross-Cutting Concerns
+## 05 — Quality Attributes
 
-Concerns that affect multiple parts of an application and are commonly handled across different layers and features.
+The qualities that influence architectural decisions.
 
-* [Validation](06-cross-cutting/validation.md)
-* [Error Handling](06-cross-cutting/error-handling.md)
-* [Logging](06-cross-cutting/logging.md)
-* [Authentication](06-cross-cutting/authentication.md)
-* [Authorization](06-cross-cutting/authorization.md)
-* [Configuration](06-cross-cutting/configuration.md)
-
----
-
-## 07 — Testing
-
-Testing concepts and techniques for verifying application behavior, integration between components, and architectural boundaries.
-
-* [Test Pyramid](07-testing/test-pyramid.md)
-* [Unit Testing](07-testing/unit-testing.md)
-* [Integration Testing](07-testing/integration-testing.md)
-* [Test Doubles](07-testing/test-doubles.md)
-* [Testcontainers](07-testing/testcontainers.md)
+* [Maintainability](05-quality-attributes/01-maintainability.md)
+* [Scalability](05-quality-attributes/02-scalability.md)
+* [Performance](05-quality-attributes/03-performance.md)
+* [Availability](05-quality-attributes/04-availability.md)
+* [Reliability](05-quality-attributes/05-reliability.md)
+* [Security](05-quality-attributes/06-security.md)
+* [Testability](05-quality-attributes/07-testability.md)
 
 ---
 
-## 08 — Principles
+## 06 — Architecture Diagrams
 
-Fundamental software design principles that help keep systems maintainable, understandable, and easier to change.
+Diagrams used to communicate and reason about architecture.
 
-* [SOLID](08-principles/solid.md)
-* [DRY](08-principles/dry.md)
-* [KISS](08-principles/kiss.md)
-* [YAGNI](08-principles/yagni.md)
-* [Law of Demeter](08-principles/law-of-demeter.md)
-
----
-
-## 09 — Anti-Patterns
-
-Common design and architecture approaches that can create unnecessary complexity, tight coupling, or difficult-to-maintain code.
-
-* [Anemic Domain Model](09-anti-patterns/anemic-domain-model.md)
-* [God Class](09-anti-patterns/god-class.md)
-* [Service Locator](09-anti-patterns/service-locator.md)
-* [Leaky Abstraction](09-anti-patterns/leaky-abstraction.md)
-* [Overengineering](09-anti-patterns/overengineering.md)
+* [Dependency Direction](06-diagrams/01-dependency-direction.md)
+* [Request Flow](06-diagrams/02-request-flow.md)
+* [Layered Architecture Diagram](06-diagrams/03-layered-architecture.md)
+* [Clean Architecture Diagram](06-diagrams/04-clean-architecture.md)
+* [Hexagonal Architecture Diagram](06-diagrams/05-hexagonal-architecture.md)
+* [Modular Monolith Diagram](06-diagrams/06-modular-monolith.md)
+* [C4 Model](06-diagrams/07-c4-model.md)
 
 ---
 
-## 10 — Diagrams
+## 07 — Architecture Anti-Patterns
 
-Visual representations used to understand architecture, dependencies, component relationships, and application request flow.
+Common architectural mistakes that lead to complexity and difficult-to-change systems.
 
-* [Dependency Direction](10-diagrams/dependency-direction.md)
-* [Request Flow](10-diagrams/request-flow.md)
-* [Clean Architecture Diagram](10-diagrams/clean-architecture-diagram.md)
+* [Big Ball of Mud](07-anti-patterns/01-big-ball-of-mud.md)
+* [Distributed Monolith](07-anti-patterns/02-distributed-monolith.md)
+* [God Component](07-anti-patterns/03-god-component.md)
+* [Leaky Abstraction](07-anti-patterns/04-leaky-abstraction.md)
+* [Service Locator](07-anti-patterns/05-service-locator.md)
+* [Overengineering](07-anti-patterns/06-overengineering.md)
 
 ---
 
-## 11 — Glossary
+## 08 — Architecture Glossary
 
-A quick reference for important architecture and software design terminology used throughout this section.
-
-* [Architecture Glossary](11-glossary.md)
+* [Architecture Glossary](08-glossary.md)

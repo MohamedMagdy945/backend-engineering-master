@@ -184,3 +184,43 @@ FOUNDATIONS
     ├── Backups & Recovery
     └── System Maintenance
 ```
+
+Software Architecture
+        │
+        ├── Fundamentals
+        ├── Architectural Styles
+        ├── Building Blocks
+        ├── Architectural Decisions
+        ├── Quality Attributes
+        ├── Diagrams
+        └── Anti-Patterns
+
+
+Domain-Driven Design
+        │
+        ├── Entities
+        ├── Value Objects
+        ├── Aggregates
+        ├── Bounded Contexts
+        ├── Domain Events
+        └── Ubiquitous Language
+
+
+Software Design
+        │
+        ├── SOLID
+        ├── Design Patterns
+        ├── Composition
+        ├── Abstraction
+        └── Object Design
+
+
+System Design
+        │
+        ├── Scalability
+        ├── Distributed Systems
+        ├── Caching
+        ├── Messaging
+        ├── Databases
+        ├── Load Balancing
+        └── Availability

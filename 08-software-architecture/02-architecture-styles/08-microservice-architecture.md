@@ -1431,15 +1431,6 @@ Monolith
 Modular Monolith
 → One Application + Strong Business Modules
 
-Vertical Slice
-→ Feature Organization
-
-Onion
-→ Dependency Direction
-
-Hexagonal
-→ Ports and Adapters
-
 Microservices
 → Multiple Independently Deployable Services
 ```
