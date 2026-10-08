@@ -1,4 +1,4 @@
-# 04 — Dependency Direction
+# 05 — Dependency Direction
 
 **Dependency Direction** defines which parts of a software system are allowed to depend on other parts.
 

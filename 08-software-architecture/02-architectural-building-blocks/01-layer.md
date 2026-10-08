@@ -624,3 +624,14 @@ External Systems
 ```
 
 ---
+
+## 17 — Next Steps & In-Depth Guides
+
+Explore each layer in detail:
+
+1. [01 — Domain Layer](01-domain-layer.md)
+2. [02 — Application Layer](02-application-layer.md)
+3. [03 — Infrastructure Layer](03-infrastructure-layer.md)
+4. [04 — Presentation Layer](04-presentation-layer.md)
+
+---
