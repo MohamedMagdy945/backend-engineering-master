@@ -67,9 +67,14 @@ FOUNDATIONS
 │   ├── File Handling
 │   └── Background Services
 │
-├── 8. Software Architecture
+├── 8. Software Engineering
+│   ├── Clean Code
 │   ├── SOLID
 │   ├── Design Patterns
+│   └── Refactoring
+│
+├── 9. Software Architecture
+│   ├── Architectural Styles
 │   ├── Modular Monolith
 │   ├── Clean Architecture
 │   ├── Vertical Slice Architecture
@@ -77,14 +82,24 @@ FOUNDATIONS
 │   ├── DDD Fundamentals
 │   └── CQRS
 │
-├── 9. Caching
+├── 10. Software Documentation
+│   ├── README Writing
+│   ├── Setup & Configuration Documentation
+│   ├── API Documentation (OpenAPI / Swagger)
+│   ├── Architecture Diagrams
+│   ├── Dependency Diagrams
+│   ├── Request Flow Diagrams
+│   ├── Architecture Decision Records (ADR)
+│   └── Deployment Documentation
+│
+├── 11. Caching
 │   ├── In-Memory Cache
 │   ├── Distributed Cache
 │   ├── Redis
 │   ├── Cache Strategies
 │   └── Cache Invalidation
 │
-├── 10. Asynchronous Systems
+├── 12. Asynchronous Systems
 │   ├── Async / Await
 │   ├── Concurrency
 │   ├── Message Queues
@@ -94,7 +109,7 @@ FOUNDATIONS
 │   ├── Eventual Consistency
 │   └── Idempotency
 │
-├── 11. Distributed Systems
+├── 13. Distributed Systems
 │   ├── Distributed System Fundamentals
 │   ├── Service Communication
 │   ├── Consistency
@@ -107,7 +122,7 @@ FOUNDATIONS
 │   ├── Distributed Transactions
 │   └── Reliability Patterns
 │
-├── 12. Security
+├── 14. Security
 │   ├── Authentication
 │   ├── Authorization
 │   ├── JWT
@@ -119,7 +134,7 @@ FOUNDATIONS
 │   ├── TLS
 │   └── API Security
 │
-├── 13. Testing
+├── 15. Testing
 │   ├── Unit Testing
 │   ├── Integration Testing
 │   ├── Functional Testing
@@ -127,7 +142,7 @@ FOUNDATIONS
 │   ├── Mocking
 │   └── Contract Testing
 │
-├── 14. Observability
+├── 16. Observability
 │   ├── Logging
 │   ├── Structured Logging
 │   ├── Metrics
@@ -136,7 +151,7 @@ FOUNDATIONS
 │   ├── Health Checks
 │   └── Alerting
 │
-├── 15. Performance Engineering
+├── 17. Performance Engineering
 │   ├── Profiling
 │   ├── Memory
 │   ├── CPU
@@ -145,7 +160,7 @@ FOUNDATIONS
 │   ├── Load Testing
 │   └── Scalability
 │
-├── 16. Linux & Infrastructure
+├── 18. Linux & Infrastructure
 │   ├── Linux Fundamentals
 │   ├── Processes
 │   ├── Services
@@ -155,7 +170,7 @@ FOUNDATIONS
 │   ├── Nginx
 │   └── Reverse Proxies
 │
-├── 17. Containers & Deployment
+├── 19. Containers & Deployment
 │   ├── Docker
 │   ├── Container Networking
 │   ├── Volumes
@@ -164,7 +179,7 @@ FOUNDATIONS
 │   ├── Environment Configuration
 │   └── Deployment Strategies
 │
-├── 18. System Design
+├── 20. System Design
 │   ├── Scalability
 │   ├── Availability
 │   ├── Reliability
@@ -175,7 +190,7 @@ FOUNDATIONS
 │   ├── API Gateways
 │   └── Designing Real Systems
 │
-└── 19. Production Engineering
+└── 21. Production Engineering
     ├── Incident Debugging
     ├── Production Troubleshooting
     ├── Failure Handling
@@ -184,43 +199,3 @@ FOUNDATIONS
     ├── Backups & Recovery
     └── System Maintenance
 ```
-
-Software Architecture
-        │
-        ├── Fundamentals
-        ├── Architectural Styles
-        ├── Building Blocks
-        ├── Architectural Decisions
-        ├── Quality Attributes
-        ├── Diagrams
-        └── Anti-Patterns
-
-
-Domain-Driven Design
-        │
-        ├── Entities
-        ├── Value Objects
-        ├── Aggregates
-        ├── Bounded Contexts
-        ├── Domain Events
-        └── Ubiquitous Language
-
-
-Software Design
-        │
-        ├── SOLID
-        ├── Design Patterns
-        ├── Composition
-        ├── Abstraction
-        └── Object Design
-
-
-System Design
-        │
-        ├── Scalability
-        ├── Distributed Systems
-        ├── Caching
-        ├── Messaging
-        ├── Databases
-        ├── Load Balancing
-        └── Availability
