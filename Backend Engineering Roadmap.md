@@ -1,201 +1,216 @@
 # Backend Engineering Roadmap
 
 ```text
-FOUNDATIONS
+BACKEND ENGINEERING ROADMAP
 │
 ├── 1. Programming & Problem Solving
+│   ├── Algorithms & Logic
+│   ├── Data Manipulation
+│   ├── Clean Code Practices
+│   └── Debugging & Problem Decomposition
 │
 ├── 2. Computer Science Fundamentals
 │   ├── Data Structures & Algorithms
-│   ├── Complexity
+│   ├── Complexity Analysis (Big-O)
+│   ├── Memory Layout & References
 │   └── Basic Computer Architecture
 │
 ├── 3. Operating Systems
 │   ├── Processes & Threads
-│   ├── Concurrency
-│   ├── Memory
-│   ├── File Systems
-│   ├── Scheduling
-│   ├── IPC
-│   └── Linux
+│   ├── Concurrency & Synchronization
+│   ├── Memory Management & Virtual Memory
+│   ├── File Systems & I/O
+│   ├── CPU Scheduling
+│   ├── Inter-Process Communication (IPC)
+│   └── Linux Kernel & System Calls
 │
 ├── 4. Networking
-│   ├── OSI / TCP-IP
-│   ├── IP & Subnetting
-│   ├── TCP / UDP
+│   ├── OSI & TCP/IP Models
+│   ├── IP Addressing & Subnetting
+│   ├── TCP vs UDP
 │   ├── Ports & Sockets
-│   ├── DNS
-│   ├── NAT
-│   ├── Routing
-│   ├── TLS
-│   ├── Proxies
+│   ├── DNS Resolution
+│   ├── NAT & Routing
+│   ├── TLS / SSL Handshake
+│   ├── Forward & Reverse Proxies
 │   └── Load Balancing
 │
 ├── 5. Web & HTTP
-│   ├── HTTP Fundamentals
-│   ├── HTTP Methods & Status Codes
-│   ├── Headers
-│   ├── Cookies
-│   ├── Sessions
-│   ├── CORS
-│   ├── HTTPS
-│   ├── REST
-│   ├── WebSockets
-│   └── API Design
+│   ├── HTTP Protocols (HTTP/1.1, HTTP/2, HTTP/3)
+│   ├── HTTP Methods & Idempotency
+│   ├── Status Codes & Semantics
+│   ├── Headers & Content Negotiation
+│   ├── Cookies & Session Management
+│   ├── CORS & Security Headers
+│   ├── HTTPS & Transport Security
+│   ├── RESTful API Principles
+│   ├── WebSockets & Server-Sent Events (SSE)
+│   └── API Design & Versioning
 │
-├── 6. Databases & Data
-│   ├── Relational Databases
-│   ├── SQL
-│   ├── Database Design
-│   ├── Normalization
-│   ├── Indexing
-│   ├── Transactions
-│   ├── Isolation Levels
-│   ├── Locking
-│   ├── Query Optimization
-│   ├── Replication
-│   └── NoSQL Fundamentals
+├── 6. Databases & Data Modeling
+│   ├── Relational Databases (PostgreSQL / SQL Server)
+│   ├── Advanced SQL & Joins
+│   ├── Database Design & Normalization
+│   ├── Indexing Strategies (B-Tree, Hash, Composite)
+│   ├── ACID Transactions & Write-Ahead Log (WAL)
+│   ├── Transaction Isolation Levels & Anomalies
+│   ├── Locking & Concurrency Control
+│   ├── Query Optimization & Execution Plans
+│   ├── Replication & High Availability
+│   └── NoSQL Fundamentals (Document, Key-Value)
 │
-├── 7. Backend Development
-│   ├── C# / .NET
-│   ├── ASP.NET Core
-│   ├── APIs
-│   ├── Authentication
-│   ├── Authorization
-│   ├── Validation
-│   ├── Error Handling
-│   ├── File Handling
-│   └── Background Services
+├── 7. Backend Development (.NET / ASP.NET Core)
+│   ├── C# & .NET Runtime
+│   ├── ASP.NET Core Web APIs
+│   ├── Request Lifecycle & Routing
+│   ├── Dependency Injection & Service Lifetimes
+│   ├── Middleware Pipeline & Filters
+│   ├── Model Binding & Validation
+│   ├── Global Error Handling & Exception Management
+│   ├── Configuration & Options Pattern
+│   ├── File Handling & Streaming
+│   └── Background Services & Hosted Services
 │
-├── 8. Software Engineering
+├── 8. Software Engineering Principles
 │   ├── Clean Code
-│   ├── SOLID
-│   ├── Design Patterns
+│   ├── Code Smells
 │   └── Refactoring
 │
 ├── 9. Software Architecture
-│   ├── Architectural Styles
-│   ├── Modular Monolith
+│   ├── Architectural Styles & Boundaries
+│   ├── Layered Architecture
 │   ├── Clean Architecture
+│   ├── Hexagonal Architecture (Ports & Adapters)
+│   ├── Onion Architecture
 │   ├── Vertical Slice Architecture
-│   ├── Domain Modeling
-│   ├── DDD Fundamentals
-│   └── CQRS
+│   ├── Modular Monolith (In-Process Modularity)
+│   ├── Microservices Architecture
+│   ├── Domain Modeling & DDD Fundamentals
+│   └── Architectural Decision Making & Trade-Offs (ADRs)
 │
-├── 10. Software Documentation
+├── 10. Application Design & Implementation Patterns
+│   ├── CQRS (Commands, Queries & Handlers)
+│   ├── Mediator Pattern (MediatR & In-Process Dispatching)
+│   ├── Pipeline Behaviors (Logging, Validation, Transactions)
+│   ├── Repository & Unit of Work Patterns
+│   ├── Specification Pattern
+│   ├── Result Pattern (Railway-Oriented Error Handling)
+│   ├── Domain Events & Domain Event Handlers
+│   ├── Outbox Pattern & Transactional Consistency
+│   ├── Integration Events & Consumer Handlers
+│   ├── Transaction Management
+│   ├── Idempotency & Request Deduplication
+│   ├── Cross-Cutting Concerns & Interceptors
+│   └── Background Job Processing (Hangfire / Quartz.NET)
+│
+├── 11. Testing & Quality Assurance
+│   ├── Unit Testing (xUnit, NUnit)
+│   ├── Integration Testing & WebApplicationFactory
+│   ├── Functional & End-to-End API Testing
+│   ├── Testcontainers (PostgreSQL, Redis, RabbitMQ)
+│   ├── Mocking, Fakes & Test Doubles
+│   ├── Architecture Testing (NetArchTest)
+│   ├── Contract Testing (Pact)
+│   └── Test-Driven Development (TDD) Concepts
+│
+├── 12. Software Documentation
 │   ├── README Writing
 │   ├── Setup & Configuration Documentation
 │   ├── API Documentation (OpenAPI / Swagger)
-│   ├── Architecture Diagrams
-│   ├── Dependency Diagrams
-│   ├── Request Flow Diagrams
-│   ├── Architecture Decision Records (ADR)
-│   └── Deployment Documentation
+│   ├── Architecture Diagrams (C4 Model)
+│   ├── Dependency & Request Flow Diagrams
+│   ├── Architecture Decision Records (ADRs)
+│   └── Deployment Documentation & Runbooks
 │
-├── 11. Caching
-│   ├── In-Memory Cache
-│   ├── Distributed Cache
-│   ├── Redis
-│   ├── Cache Strategies
-│   └── Cache Invalidation
+├── 13. Caching & State Management
+│   ├── In-Memory Cache (IMemoryCache)
+│   ├── Distributed Cache (IDistributedCache)
+│   ├── Redis Fundamentals & Data Structures
+│   ├── Cache Strategies (Cache-Aside, Write-Through)
+│   ├── Cache Invalidation & TTL Strategies
+│   └── Cache Stampede Protection
 │
-├── 12. Asynchronous Systems
-│   ├── Async / Await
-│   ├── Concurrency
-│   ├── Message Queues
-│   ├── RabbitMQ / Brokers
-│   ├── Events
-│   ├── Pub/Sub
-│   ├── Eventual Consistency
-│   └── Idempotency
+├── 14. Asynchronous Systems & Messaging
+│   ├── Async / Await & Asynchronous Programming
+│   ├── Concurrency, Thread Safety & Task Parallel Library
+│   ├── Message Queues & Message Brokers
+│   ├── RabbitMQ / Apache Kafka
+│   ├── Events & Event-Driven Architecture (EDA)
+│   ├── Publish / Subscribe Pattern
+│   ├── Competing Consumers Pattern
+│   └── Eventual Consistency & Compensation
 │
-├── 13. Distributed Systems
-│   ├── Distributed System Fundamentals
-│   ├── Service Communication
-│   ├── Consistency
-│   ├── Availability
-│   ├── CAP
-│   ├── Retries
-│   ├── Timeouts
-│   ├── Circuit Breakers
-│   ├── Rate Limiting
-│   ├── Distributed Transactions
-│   └── Reliability Patterns
+├── 15. Distributed Systems & Resilience
+│   ├── Distributed Systems Fundamentals & Fallacies
+│   ├── Inter-Service Communication (gRPC vs REST vs Messaging)
+│   ├── Consistency Models & CAP / PACELC Theorems
+│   ├── Fault Tolerance & Graceful Degradation
+│   ├── Retries, Exponential Backoff & Jitter
+│   ├── Circuit Breakers (Polly)
+│   ├── Rate Limiting & Throttling
+│   ├── Distributed Transactions & Sagas
+│   └── Distributed Tracing & Correlation IDs
 │
-├── 14. Security
-│   ├── Authentication
-│   ├── Authorization
-│   ├── JWT
-│   ├── OAuth / OpenID Connect
-│   ├── OWASP
-│   ├── Secrets Management
-│   ├── Encryption
-│   ├── Hashing
-│   ├── TLS
-│   └── API Security
+├── 16. Security & Identity
+│   ├── Authentication Mechanisms
+│   ├── Authorization (Role-Based & Policy-Based RBAC/PBAC)
+│   ├── JSON Web Tokens (JWT) & Refresh Tokens
+│   ├── OAuth 2.0 & OpenID Connect (OIDC)
+│   ├── OWASP Top 10 Backend Vulnerabilities
+│   ├── Secrets Management (Key Vault, Secret Manager)
+│   ├── Cryptography: Encryption vs Hashing vs Salting
+│   ├── TLS / HTTPS & Certificate Management
+│   └── API Security & Data Protection
 │
-├── 15. Testing
-│   ├── Unit Testing
-│   ├── Integration Testing
-│   ├── Functional Testing
-│   ├── Test Containers
-│   ├── Mocking
-│   └── Contract Testing
+├── 17. Observability & Monitoring
+│   ├── Structured Logging (Serilog / OpenTelemetry)
+│   ├── Metrics & Instrumentation (Prometheus)
+│   ├── Monitoring & Dashboards (Grafana)
+│   ├── Distributed Tracing (OpenTelemetry / Jaeger)
+│   ├── Health Checks (Readiness & Liveness Probes)
+│   └── Alerting & Incident Notification
 │
-├── 16. Observability
-│   ├── Logging
-│   ├── Structured Logging
-│   ├── Metrics
-│   ├── Monitoring
-│   ├── Distributed Tracing
-│   ├── Health Checks
-│   └── Alerting
+├── 18. Performance Engineering
+│   ├── Profiling & Benchmarking (BenchmarkDotNet)
+│   ├── Memory Allocation & Garbage Collection (GC) Tuning
+│   ├── CPU Optimization & Async Bottlenecks
+│   ├── Database Performance Tuning & Execution Plans
+│   ├── Connection Pooling & Resource Leak Prevention
+│   ├── Load & Stress Testing (k6 / Bombardier)
+│   └── Scalability Bottlenecks Analysis
 │
-├── 17. Performance Engineering
-│   ├── Profiling
-│   ├── Memory
-│   ├── CPU
-│   ├── Database Performance
-│   ├── Caching
-│   ├── Load Testing
-│   └── Scalability
+├── 19. Linux & Infrastructure
+│   ├── Linux Fundamentals & Command Line
+│   ├── Systemd Processes & Service Management
+│   ├── Networking Diagnostics (curl, netstat, ss, dig)
+│   ├── File System, Permissions & SSH Access
+│   ├── Nginx Configuration & Reverse Proxying
+│   └── SSL/TLS Termination
 │
-├── 18. Linux & Infrastructure
-│   ├── Linux Fundamentals
-│   ├── Processes
-│   ├── Services
-│   ├── Networking Tools
-│   ├── Permissions
-│   ├── SSH
-│   ├── Nginx
-│   └── Reverse Proxies
+├── 20. Containers & Deployment
+│   ├── Docker Fundamentals & Multi-Stage Dockerfiles
+│   ├── Container Networking & Port Mapping
+│   ├── Volumes & Persistent Storage
+│   ├── Docker Compose for Local Development
+│   ├── CI / CD Pipelines (GitHub Actions)
+│   ├── Environment Configuration & 12-Factor App
+│   └── Deployment Strategies (Rolling, Blue-Green, Canary)
 │
-├── 19. Containers & Deployment
-│   ├── Docker
-│   ├── Container Networking
-│   ├── Volumes
-│   ├── Docker Compose
-│   ├── CI/CD
-│   ├── Environment Configuration
-│   └── Deployment Strategies
+├── 21. System Design
+│   ├── Scalability & High Availability Architecture
+│   ├── Load Balancing Strategies & Algorithms
+│   ├── Database Scaling (Read Replicas, Sharding, Partitioning)
+│   ├── Content Delivery Networks (CDN) & Edge Caching
+│   ├── Event-Driven Data Pipelines
+│   ├── API Gateways & Reverse Proxies
+│   └── Designing Real-World Systems
 │
-├── 20. System Design
-│   ├── Scalability
-│   ├── Availability
-│   ├── Reliability
-│   ├── Load Balancing
-│   ├── Caching
-│   ├── Database Scaling
-│   ├── Messaging
-│   ├── API Gateways
-│   └── Designing Real Systems
-│
-└── 21. Production Engineering
-    ├── Incident Debugging
+└── 22. Production Engineering & Reliability
     ├── Production Troubleshooting
-    ├── Failure Handling
-    ├── Capacity Planning
-    ├── Reliability
-    ├── Backups & Recovery
-    └── System Maintenance
+    ├── Incident Debugging & Postmortems
+    ├── Failure Handling & Graceful Degradation
+    ├── Capacity Planning & Resource Forecasting
+    ├── Disaster Recovery, Backups & RTO / RPO
+    ├── Database Migrations with Zero Downtime
+    └── Site Reliability Engineering (SRE) Principles
 ```
