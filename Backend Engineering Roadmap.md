@@ -88,30 +88,30 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Domain Modeling & DDD Fundamentals
 │   └── Architectural Decision Making & Trade-Offs (ADRs)
 │
-├── 10. Application Design & Implementation Patterns
-│   ├── CQRS (Commands, Queries & Handlers)
-│   ├── Mediator Pattern (MediatR & In-Process Dispatching)
-│   ├── Pipeline Behaviors (Logging, Validation, Transactions)
-│   ├── Repository & Unit of Work Patterns
+├── 10. Application Design Patterns
+│   ├── CQRS
+│   ├── Mediator Pattern
+│   ├── Pipeline Behaviors
+│   ├── Repository & Unit of Work
 │   ├── Specification Pattern
-│   ├── Result Pattern (Railway-Oriented Error Handling)
-│   ├── Domain Events & Domain Event Handlers
-│   ├── Outbox Pattern & Transactional Consistency
-│   ├── Integration Events & Consumer Handlers
+│   ├── Result Pattern
+│   ├── Domain Events
+│   ├── Outbox Pattern
+│   ├── Integration Events
 │   ├── Transaction Management
-│   ├── Idempotency & Request Deduplication
-│   ├── Cross-Cutting Concerns & Interceptors
-│   └── Background Job Processing (Hangfire / Quartz.NET)
+│   ├── Idempotency
+│   ├── Cross-Cutting Concerns
+│   └── Background Job Processing
 │
 ├── 11. Testing & Quality Assurance
 │   ├── Unit Testing (xUnit, NUnit)
 │   ├── Integration Testing & WebApplicationFactory
 │   ├── Functional & End-to-End API Testing
-│   ├── Testcontainers (PostgreSQL, Redis, RabbitMQ)
+│   ├── Testcontainers
 │   ├── Mocking, Fakes & Test Doubles
 │   ├── Architecture Testing (NetArchTest)
 │   ├── Contract Testing (Pact)
-│   └── Test-Driven Development (TDD) Concepts
+│   └── Test-Driven Development (TDD)
 │
 ├── 12. Software Documentation
 │   ├── README Writing
@@ -123,10 +123,10 @@ BACKEND ENGINEERING ROADMAP
 │   └── Deployment Documentation & Runbooks
 │
 ├── 13. Caching & State Management
-│   ├── In-Memory Cache (IMemoryCache)
-│   ├── Distributed Cache (IDistributedCache)
+│   ├── In-Memory Cache
+│   ├── Distributed Cache
 │   ├── Redis Fundamentals & Data Structures
-│   ├── Cache Strategies (Cache-Aside, Write-Through)
+│   ├── Cache Strategies
 │   ├── Cache Invalidation & TTL Strategies
 │   └── Cache Stampede Protection
 │
@@ -135,7 +135,7 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Concurrency, Thread Safety & Task Parallel Library
 │   ├── Message Queues & Message Brokers
 │   ├── RabbitMQ / Apache Kafka
-│   ├── Events & Event-Driven Architecture (EDA)
+│   ├── Events & Event-Driven Architecture
 │   ├── Publish / Subscribe Pattern
 │   ├── Competing Consumers Pattern
 │   └── Eventual Consistency & Compensation
@@ -153,36 +153,36 @@ BACKEND ENGINEERING ROADMAP
 │
 ├── 16. Security & Identity
 │   ├── Authentication Mechanisms
-│   ├── Authorization (Role-Based & Policy-Based RBAC/PBAC)
-│   ├── JSON Web Tokens (JWT) & Refresh Tokens
-│   ├── OAuth 2.0 & OpenID Connect (OIDC)
+│   ├── Authorization (RBAC / PBAC)
+│   ├── JWT & Refresh Tokens
+│   ├── OAuth 2.0 & OpenID Connect
 │   ├── OWASP Top 10 Backend Vulnerabilities
-│   ├── Secrets Management (Key Vault, Secret Manager)
+│   ├── Secrets Management
 │   ├── Cryptography: Encryption vs Hashing vs Salting
 │   ├── TLS / HTTPS & Certificate Management
 │   └── API Security & Data Protection
 │
 ├── 17. Observability & Monitoring
-│   ├── Structured Logging (Serilog / OpenTelemetry)
-│   ├── Metrics & Instrumentation (Prometheus)
-│   ├── Monitoring & Dashboards (Grafana)
-│   ├── Distributed Tracing (OpenTelemetry / Jaeger)
-│   ├── Health Checks (Readiness & Liveness Probes)
+│   ├── Structured Logging
+│   ├── Metrics & Instrumentation
+│   ├── Monitoring & Dashboards
+│   ├── Distributed Tracing
+│   ├── Health Checks
 │   └── Alerting & Incident Notification
 │
 ├── 18. Performance Engineering
-│   ├── Profiling & Benchmarking (BenchmarkDotNet)
-│   ├── Memory Allocation & Garbage Collection (GC) Tuning
+│   ├── Profiling & Benchmarking
+│   ├── Memory Allocation & Garbage Collection
 │   ├── CPU Optimization & Async Bottlenecks
-│   ├── Database Performance Tuning & Execution Plans
+│   ├── Database Performance Tuning
 │   ├── Connection Pooling & Resource Leak Prevention
-│   ├── Load & Stress Testing (k6 / Bombardier)
+│   ├── Load & Stress Testing
 │   └── Scalability Bottlenecks Analysis
 │
 ├── 19. Linux & Infrastructure
 │   ├── Linux Fundamentals & Command Line
 │   ├── Systemd Processes & Service Management
-│   ├── Networking Diagnostics (curl, netstat, ss, dig)
+│   ├── Networking Diagnostics
 │   ├── File System, Permissions & SSH Access
 │   ├── Nginx Configuration & Reverse Proxying
 │   └── SSL/TLS Termination
@@ -191,26 +191,26 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Docker Fundamentals & Multi-Stage Dockerfiles
 │   ├── Container Networking & Port Mapping
 │   ├── Volumes & Persistent Storage
-│   ├── Docker Compose for Local Development
-│   ├── CI / CD Pipelines (GitHub Actions)
+│   ├── Docker Compose
+│   ├── CI / CD Pipelines
 │   ├── Environment Configuration & 12-Factor App
-│   └── Deployment Strategies (Rolling, Blue-Green, Canary)
+│   └── Deployment Strategies
 │
 ├── 21. System Design
 │   ├── Scalability & High Availability Architecture
 │   ├── Load Balancing Strategies & Algorithms
-│   ├── Database Scaling (Read Replicas, Sharding, Partitioning)
-│   ├── Content Delivery Networks (CDN) & Edge Caching
+│   ├── Database Scaling
+│   ├── CDN & Edge Caching
 │   ├── Event-Driven Data Pipelines
 │   ├── API Gateways & Reverse Proxies
 │   └── Designing Real-World Systems
 │
-└── 22. Production Engineering & Reliability
-    ├── Production Troubleshooting
-    ├── Incident Debugging & Postmortems
-    ├── Failure Handling & Graceful Degradation
-    ├── Capacity Planning & Resource Forecasting
-    ├── Disaster Recovery, Backups & RTO / RPO
-    ├── Database Migrations with Zero Downtime
-    └── Site Reliability Engineering (SRE) Principles
+├── 22. Production Engineering & Reliability
+│   ├── Production Troubleshooting
+│   ├── Incident Debugging & Postmortems
+│   ├── Failure Handling & Graceful Degradation
+│   ├── Capacity Planning & Resource Forecasting
+│   ├── Disaster Recovery, Backups & RTO / RPO
+│   ├── Database Migrations with Zero Downtime
+│   └── Site Reliability Engineering (SRE) Principles
 ```
