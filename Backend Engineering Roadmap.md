@@ -68,6 +68,7 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Model Binding & Validation
 │   ├── Global Error Handling & Exception Management
 │   ├── Configuration & Options Pattern
+│   ├── Logging Abstractions (ILogger<T>)
 │   ├── File Handling & Streaming
 │   └── Background Services & Hosted Services
 │
@@ -103,7 +104,24 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Cross-Cutting Concerns
 │   └── Background Job Processing
 │
-├── 11. Testing & Quality Assurance
+├── 11. Project Setup & Foundation
+│   ├── Solution & Project Structure
+│   ├── Project References & Dependency Direction
+│   ├── Package Management & NuGet
+│   ├── Environment Configuration (Development / Production)
+│   ├── Dependency Injection Registration
+│   ├── Database & EF Core Setup
+│   ├── Logging Setup (ILogger, Serilog, Seq)
+│   ├── Global Exception Handling & Problem Details
+│   ├── Options Pattern & Configuration Validation
+│   ├── API Documentation (OpenAPI / Swagger)
+│   ├── Health Checks
+│   ├── Authentication & Authorization Setup
+│   ├── CORS & API Versioning Configuration
+│   ├── Environment Variables & Secrets
+│   └── Initial Application Pipeline & Bootstrap
+│
+├── 12. Testing & Quality Assurance
 │   ├── Unit Testing (xUnit, NUnit)
 │   ├── Integration Testing & WebApplicationFactory
 │   ├── Functional & End-to-End API Testing
@@ -113,7 +131,7 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Contract Testing (Pact)
 │   └── Test-Driven Development (TDD)
 │
-├── 12. Software Documentation
+├── 13. Software Documentation
 │   ├── README Writing
 │   ├── Setup & Configuration Documentation
 │   ├── API Documentation (OpenAPI / Swagger)
@@ -122,7 +140,7 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Architecture Decision Records (ADRs)
 │   └── Deployment Documentation & Runbooks
 │
-├── 13. Caching & State Management
+├── 14. Caching & State Management
 │   ├── In-Memory Cache
 │   ├── Distributed Cache
 │   ├── Redis Fundamentals & Data Structures
@@ -130,7 +148,7 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Cache Invalidation & TTL Strategies
 │   └── Cache Stampede Protection
 │
-├── 14. Asynchronous Systems & Messaging
+├── 15. Asynchronous Systems & Messaging
 │   ├── Async / Await & Asynchronous Programming
 │   ├── Concurrency, Thread Safety & Task Parallel Library
 │   ├── Message Queues & Message Brokers
@@ -140,7 +158,7 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Competing Consumers Pattern
 │   └── Eventual Consistency & Compensation
 │
-├── 15. Distributed Systems & Resilience
+├── 16. Distributed Systems & Resilience
 │   ├── Distributed Systems Fundamentals & Fallacies
 │   ├── Inter-Service Communication (gRPC vs REST vs Messaging)
 │   ├── Consistency Models & CAP / PACELC Theorems
@@ -151,7 +169,7 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Distributed Transactions & Sagas
 │   └── Distributed Tracing & Correlation IDs
 │
-├── 16. Security & Identity
+├── 17. Security & Identity
 │   ├── Authentication Mechanisms
 │   ├── Authorization (RBAC / PBAC)
 │   ├── JWT & Refresh Tokens
@@ -162,15 +180,20 @@ BACKEND ENGINEERING ROADMAP
 │   ├── TLS / HTTPS & Certificate Management
 │   └── API Security & Data Protection
 │
-├── 17. Observability & Monitoring
+├── 18. Observability & Monitoring
+│   ├── Logging Fundamentals & Log Levels
 │   ├── Structured Logging
+│   ├── Logging Frameworks (ILogger, Serilog)
+│   ├── Log Enrichment & Correlation IDs
+│   ├── Centralized Logging (Seq, ELK / OpenSearch)
+│   ├── Log Filtering & Configuration
 │   ├── Metrics & Instrumentation
 │   ├── Monitoring & Dashboards
 │   ├── Distributed Tracing
 │   ├── Health Checks
 │   └── Alerting & Incident Notification
 │
-├── 18. Performance Engineering
+├── 19. Performance Engineering
 │   ├── Profiling & Benchmarking
 │   ├── Memory Allocation & Garbage Collection
 │   ├── CPU Optimization & Async Bottlenecks
@@ -179,7 +202,7 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Load & Stress Testing
 │   └── Scalability Bottlenecks Analysis
 │
-├── 19. Linux & Infrastructure
+├── 20. Linux & Infrastructure
 │   ├── Linux Fundamentals & Command Line
 │   ├── Systemd Processes & Service Management
 │   ├── Networking Diagnostics
@@ -187,16 +210,17 @@ BACKEND ENGINEERING ROADMAP
 │   ├── Nginx Configuration & Reverse Proxying
 │   └── SSL/TLS Termination
 │
-├── 20. Containers & Deployment
+├── 21. Containers & Deployment
 │   ├── Docker Fundamentals & Multi-Stage Dockerfiles
 │   ├── Container Networking & Port Mapping
 │   ├── Volumes & Persistent Storage
 │   ├── Docker Compose
 │   ├── CI / CD Pipelines
 │   ├── Environment Configuration & 12-Factor App
+│   ├── Logging Configuration & Container Log Output
 │   └── Deployment Strategies
 │
-├── 21. System Design
+├── 22. System Design
 │   ├── Scalability & High Availability Architecture
 │   ├── Load Balancing Strategies & Algorithms
 │   ├── Database Scaling
@@ -205,12 +229,12 @@ BACKEND ENGINEERING ROADMAP
 │   ├── API Gateways & Reverse Proxies
 │   └── Designing Real-World Systems
 │
-├── 22. Production Engineering & Reliability
-│   ├── Production Troubleshooting
-│   ├── Incident Debugging & Postmortems
-│   ├── Failure Handling & Graceful Degradation
-│   ├── Capacity Planning & Resource Forecasting
-│   ├── Disaster Recovery, Backups & RTO / RPO
-│   ├── Database Migrations with Zero Downtime
-│   └── Site Reliability Engineering (SRE) Principles
+└── 23. Production Engineering & Reliability
+    ├── Production Troubleshooting
+    ├── Incident Debugging & Postmortems
+    ├── Failure Handling & Graceful Degradation
+    ├── Capacity Planning & Resource Forecasting
+    ├── Disaster Recovery, Backups & RTO / RPO
+    ├── Database Migrations with Zero Downtime
+    └── Site Reliability Engineering (SRE) Principles
 ```
