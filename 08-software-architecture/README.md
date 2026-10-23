@@ -70,8 +70,27 @@ How to choose, evaluate, and evolve an architecture.
 
 ---
 
-## 07 — Architecture Glossary
+## 07 — Layer Structures
+
+Recommended project structures and layer responsibilities for backend solutions.
+
+- [Clean Architecture Layer Structures](07-layer-structures/README.md)
+
+---
+
+## 08 — Architecture Project Trees
+
+Comprehensive solution project trees, layer boundaries, and directory structures for production systems (no code, pure structure).
+
+- [01 — Onion Architecture Tree](architecture-trees/01-onion-architecture.md)
+- [02 — Hexagonal Architecture Tree](architecture-trees/02-hexagonal-architecture.md)
+- [03 — Clean Architecture Tree](architecture-trees/03-clean-architecture.md)
+- [04 — Vertical Slice Architecture Tree & When to Use](architecture-trees/04-vertical-slice-architecture.md)
+
+---
+
+## 09 — Architecture Glossary
 
 Quick reference for important architecture terminology.
 
-- [Architecture Glossary](07-glossary.md)
+- [Architecture Glossary](06-architecture-glossary/01-architecture-gossary.md)
